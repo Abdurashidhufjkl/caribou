@@ -1,0 +1,76 @@
+.discover {
+  width: 100%;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  margin-top: 120px;
+
+  &__container{
+    padding-top: 80px;
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__subtitle {
+    width: 435px;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #008765;
+  }
+
+  &__text h1 {
+    width: 864px;
+    height: 56px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+  }
+
+  &__texts {
+    width: 836px;
+    height: 32px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center;
+    color: #636363;
+  }
+
+  &__text button {
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    background-color: transparent;
+    background-color: #F8F8F8;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+
+  &__img{
+    margin-top: 70px;
+  }
+}

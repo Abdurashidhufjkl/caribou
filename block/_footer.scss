@@ -1,0 +1,145 @@
+.footer {
+  width: 100%;
+  height: 1800px;
+  margin: auto;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #191c22;
+    padding: 270px;
+  }
+
+  &__top {
+    width: 968px;
+    height: 522px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 336px;
+    margin: 50px;
+    z-index: 2;
+  }
+
+  &__logo {
+    width: 182px;
+    height: 104px;
+    display: flex;
+    align-items: end;
+    gap: 9px;
+    flex-wrap: wrap;
+  }
+
+  h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+
+  &__li {
+    margin-top: 16px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #d1d1d1;
+  }
+
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  &__li1 {
+    margin-top: 33px;
+  }
+
+  &__li3 {
+    width: 106px;
+  }
+
+  &__li4 {
+    width: 73px;
+  }
+
+  &__p1 {
+    margin-top: 65px;
+  }
+
+  &__p2 {
+    width: 181px;
+    margin-top: 70px;
+  }
+
+  &__p3 {
+    width: 143px;
+    margin-top: 14px;
+  }
+
+  &__p7 {
+    margin-top: 30px;
+  }
+
+  &__hr {
+    width: 976px;
+    height: 1px;
+    background: #47494e;
+  }
+
+  &__middle {
+    width: 976px;
+    margin: 40px;
+  }
+
+  &__middle__p {
+    margin-top: 10px;
+    width: 976px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #d1d1d1;
+  }
+
+  &__hr1 {
+    width: 976px;
+    height: 1px;
+    background: #47494e;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 976px;
+    height: 64px;
+    margin: 30px;
+  }
+
+  &__bottom__ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__bottom__li {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #d1d1d1;
+  }
+}

@@ -1,0 +1,43 @@
+.stars {
+  &__container {
+    padding-top: 80px;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__textmini h1 {
+    width: 546px;
+    height: 173px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+  }
+
+  &__textmini {
+    width: 166px;
+    height: 27px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #008765;
+  }
+
+  &__frmae{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding-top: 110px;
+  }
+
+  
+
+}

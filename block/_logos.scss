@@ -1,0 +1,46 @@
+.logos {
+  height: 100%;
+  padding: 60px;
+  &__cotainer {
+    align-items: center;
+    margin: auto;
+  }
+  &__header {
+    display: flex;
+    gap: 70px;
+  }
+
+  &__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__logo p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #008765;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
